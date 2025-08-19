@@ -1,4 +1,3 @@
-// components/InitialButton.js
 import { TouchableOpacity, Text, Image } from "react-native";
 
 export default function InitialButton({ nome, onPress, imagem, style, textStyle }) {
@@ -8,7 +7,6 @@ export default function InitialButton({ nome, onPress, imagem, style, textStyle 
             style={[
                 {
                     padding: 10,
-                    backgroundColor: "#007BFF", // cor padrão
                     borderRadius: 5,
                     flexDirection: "row",
                     alignItems: "center",
@@ -25,7 +23,7 @@ export default function InitialButton({ nome, onPress, imagem, style, textStyle 
                     )}
                 <Text
                     style={[
-                        { color: "#FFFFFF", textAlign: "center" }, // estilo padrão
+                        { color: "#FFFFFF", textAlign: "center", padding: 5, flex: 1 },
                         textStyle,
                     ]}
                 >

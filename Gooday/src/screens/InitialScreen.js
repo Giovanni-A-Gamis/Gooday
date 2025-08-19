@@ -22,7 +22,7 @@ export default function InitialScreen({ navigation }) {
                     nome="Outras opções"
                     onPress={() => navigation.navigate('Login')}
                     style={styles.buttonOutlined}
-                    textStyle={{ color: '#14c871', fontWeight: 'bold' }}
+                    textStyle={{ color: '#000' }}
                 />
             </View>
         </View>
